@@ -17,3 +17,8 @@ graph TD;
    PGMOLCaseFiles --> NewFeatures
    NewFeatures -- feature[1] --> MonthlyBlog
 :::
+
+:::mermaid
+
+graph TD;
+   GetToWork --> MVP
