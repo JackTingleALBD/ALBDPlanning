@@ -19,6 +19,11 @@ graph TD;
 :::
 
 :::mermaid
-
 graph TD;
-   GetToWork --> MVP
+   GameDev --> GetToWork
+   GetToWork --> MinimumViableProduct 
+   MinimumViableProduct --> PlayerController
+   MinimumViableProduct --> EnviromentBlocks
+   MinimumViableProduct --> CinemachineBrain
+
+:::
